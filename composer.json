@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "files" : ["config.php","url.php"],
+    "psr-4": {
+      "Core\\" : "src/core/",
+      "Controller\\": "src/controller/",
+      "Model\\" : "src/model/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "1.0.*",
+    "smarty/smarty": "~3.1"
+  }
+
+}
